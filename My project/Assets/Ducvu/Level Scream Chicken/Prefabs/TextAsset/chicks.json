@@ -1,0 +1,408 @@
+{
+"skeleton": { "hash": "xCXQDz5pVGc", "spine": "4.2.36", "x": -91.38, "y": 0.01, "width": 167.04, "height": 187.06 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 151.06, "rotation": 90.16, "x": 0.37, "y": 27.94 },
+	{ "name": "bone2", "parent": "bone", "length": 34.42, "rotation": -80, "x": 106.69, "y": -51.07 },
+	{ "name": "bone3", "parent": "bone", "length": 34.1, "rotation": -100, "x": 106.69, "y": -51.07 },
+	{ "name": "bone4", "parent": "bone", "length": 61.55, "rotation": -87.85, "x": 73.19, "y": 48.09 },
+	{ "name": "bone5", "parent": "root", "length": 38.8, "rotation": -90.76, "x": -31.12, "y": 42.05 },
+	{ "name": "bone6", "parent": "root", "length": 38.02, "rotation": -89.61, "x": 21.12, "y": 42.31 }
+],
+"slots": [
+	{ "name": "leg_rooster", "bone": "bone5", "attachment": "leg_rooster" },
+	{ "name": "leg_rooster2", "bone": "bone6", "attachment": "leg_rooster" },
+	{ "name": "chin_rooster", "bone": "bone", "attachment": "chin_rooster" },
+	{ "name": "beak_rooster_up", "bone": "bone2", "attachment": "beak_rooster_up" },
+	{ "name": "beak_rooster_up2", "bone": "bone2", "attachment": "beak_rooster_up2" },
+	{ "name": "beak_rooster_down", "bone": "bone3", "attachment": "beak_rooster_down" },
+	{ "name": "beak_rooster_down2", "bone": "bone3", "attachment": "beak_rooster_down2" },
+	{ "name": "body_rooster", "bone": "bone", "attachment": "body_rooster2" },
+	{ "name": "die_rooster", "bone": "bone", "attachment": "die_rooster" },
+	{ "name": "wing_rooster", "bone": "bone4", "attachment": "wing_rooster2" },
+	{ "name": "body_chicken", "bone": "bone", "attachment": "body_chicken2" },
+	{ "name": "die_chicken", "bone": "bone", "attachment": "die_chicken" },
+	{ "name": "wing_chicken", "bone": "bone4", "attachment": "wing_chicken2" },
+	{ "name": "beak_duck_down", "bone": "bone3", "attachment": "beak_duck_down" },
+	{ "name": "beak_duck_up", "bone": "bone2", "attachment": "beak_duck_up" },
+	{ "name": "body_duck", "bone": "bone", "attachment": "body_duck" },
+	{ "name": "wing_duck", "bone": "bone4", "attachment": "wing_duck" },
+	{ "name": "die_duck", "bone": "bone", "attachment": "die_duck" },
+	{ "name": "beak_pen_down", "bone": "bone3", "attachment": "beak_pen_down" },
+	{ "name": "beak_pen_up", "bone": "bone2", "attachment": "beak_pen_up" },
+	{ "name": "body_penguin", "bone": "bone", "attachment": "body_penguin" },
+	{ "name": "die_penguin", "bone": "bone", "attachment": "die_penguin" },
+	{ "name": "wing_penguin", "bone": "bone4", "attachment": "wing_penguin" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"die_chicken": {
+				"die_chicken2": { "path": "die_chicken", "x": 126.73, "y": -3.57, "rotation": -90.16, "width": 34, "height": 34 }
+			},
+			"leg_rooster": {
+				"leg_rooster": { "x": 16.93, "y": 7.93, "rotation": 90.76, "width": 40, "height": 50 }
+			},
+			"leg_rooster2": {
+				"leg_rooster": { "x": 17.35, "y": 7.76, "rotation": 89.61, "width": 40, "height": 50 }
+			}
+		}
+	},
+	{
+		"name": "chicken",
+		"attachments": {
+			"beak_rooster_down": {
+				"beak_rooster_down": { "x": 19.36, "y": -9.59, "rotation": 9.84, "width": 38, "height": 28 }
+			},
+			"beak_rooster_up": {
+				"beak_rooster_up": { "x": 19.49, "y": 9.96, "rotation": -10.16, "width": 38, "height": 28 }
+			},
+			"body_chicken": {
+				"body_chicken2": { "name": "body_chicken", "x": 96.14, "y": 20.56, "rotation": -90.16, "width": 142, "height": 194 }
+			},
+			"die_chicken": {
+				"die_chicken": { "x": 126.73, "y": -3.57, "rotation": -90.16, "width": 34, "height": 34 }
+			},
+			"wing_chicken": {
+				"wing_chicken2": { "name": "wing_chicken", "x": 26.92, "y": -16.17, "rotation": -2.31, "width": 62, "height": 46 }
+			}
+		}
+	},
+	{
+		"name": "duck",
+		"attachments": {
+			"beak_duck_down": {
+				"beak_duck_down": { "x": 19.26, "y": -5.98, "rotation": 9.84, "width": 37, "height": 19 }
+			},
+			"beak_duck_up": {
+				"beak_duck_up": { "x": 20.57, "y": 9.81, "rotation": -10.16, "width": 38, "height": 26 }
+			},
+			"body_duck": {
+				"body_duck": { "x": 91.68, "y": 20.53, "rotation": -90.16, "width": 142, "height": 185 }
+			},
+			"die_duck": {
+				"die_duck": { "x": 125.42, "y": -4.05, "rotation": -90.16, "width": 34, "height": 34 }
+			},
+			"wing_duck": {
+				"wing_duck": { "x": 26.97, "y": -16.24, "rotation": -2.19, "width": 62, "height": 46 }
+			}
+		}
+	},
+	{
+		"name": "penguin",
+		"attachments": {
+			"beak_pen_down": {
+				"beak_pen_down": { "x": 13.95, "y": -10.53, "rotation": 9.84, "width": 25, "height": 26 }
+			},
+			"beak_pen_up": {
+				"beak_pen_up": { "x": 14.16, "y": 10.91, "rotation": -10.16, "width": 25, "height": 26 }
+			},
+			"body_penguin": {
+				"body_penguin": { "x": 79.19, "y": 20.54, "rotation": -90.16, "width": 142, "height": 160 }
+			},
+			"die_penguin": {
+				"die_penguin": { "x": 126.45, "y": -10.46, "rotation": -90.16, "width": 27, "height": 27 }
+			},
+			"wing_penguin": {
+				"wing_penguin": { "x": 23.04, "y": -12.91, "rotation": -2.31, "width": 54, "height": 40 }
+			}
+		}
+	},
+	{
+		"name": "rooster",
+		"attachments": {
+			"beak_rooster_down2": {
+				"beak_rooster_down2": { "path": "beak_rooster_down", "x": 19.36, "y": -9.59, "rotation": 9.84, "width": 38, "height": 28 }
+			},
+			"beak_rooster_up2": {
+				"beak_rooster_up2": { "path": "beak_rooster_up", "x": 19.49, "y": 9.96, "rotation": -10.16, "width": 38, "height": 28 }
+			},
+			"body_rooster": {
+				"body_rooster2": { "name": "body_rooster", "x": 100.17, "y": 34.52, "rotation": -90.16, "width": 172, "height": 204 }
+			},
+			"chin_rooster": {
+				"chin_rooster": { "x": 74.9, "y": -62.41, "rotation": -90.16, "width": 38, "height": 42 }
+			},
+			"die_rooster": {
+				"die_rooster": { "x": 126.73, "y": -3.57, "rotation": -90.16, "width": 34, "height": 34 }
+			},
+			"wing_rooster": {
+				"wing_rooster2": { "name": "wing_rooster", "x": 26.87, "y": -16.07, "rotation": -2.31, "width": 64, "height": 48 }
+			}
+		}
+	}
+],
+"animations": {
+	"die": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "y": 5.59 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{
+						"value": 42.24,
+						"curve": [ 0.044, 42.24, 0.089, 20.17 ]
+					},
+					{
+						"time": 0.1333,
+						"value": 20.17,
+						"curve": [ 0.178, 20.17, 0.222, 42.24 ]
+					},
+					{ "time": 0.2667, "value": 42.24 }
+				]
+			},
+			"bone6": {
+				"rotate": [
+					{
+						"value": 75.52,
+						"curve": [ 0.044, 75.52, 0.089, 56.35 ]
+					},
+					{
+						"time": 0.1333,
+						"value": 56.35,
+						"curve": [ 0.178, 56.35, 0.222, 75.52 ]
+					},
+					{ "time": 0.2667, "value": 75.52 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{
+						"value": -41.63,
+						"curve": [ 0.044, -41.63, 0.089, -13.39 ]
+					},
+					{
+						"time": 0.1333,
+						"value": -13.39,
+						"curve": [ 0.178, -13.39, 0.222, -41.63 ]
+					},
+					{ "time": 0.2667, "value": -41.63 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{
+						"value": -82.04,
+						"curve": [ 0.044, -82.04, 0.089, -61.91 ]
+					},
+					{
+						"time": 0.1333,
+						"value": -61.91,
+						"curve": [ 0.178, -61.91, 0.222, -82.04 ]
+					},
+					{ "time": 0.2667, "value": -82.04 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{
+						"value": 119.32,
+						"curve": [ 0.044, 119.32, 0.089, 137.6 ]
+					},
+					{
+						"time": 0.1333,
+						"value": 137.6,
+						"curve": [ 0.178, 137.6, 0.222, 119.32 ]
+					},
+					{ "time": 0.2667, "value": 119.32 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"die_chicken": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_duck": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_penguin": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_rooster": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{
+						"curve": [ 0.067, 0, 0.133, 0, 0.067, 0, 0.133, -4.59 ]
+					},
+					{
+						"time": 0.2,
+						"y": -4.59,
+						"curve": [ 0.267, 0, 0.333, 0, 0.267, -4.59, 0.333, 0 ]
+					},
+					{ "time": 0.4 }
+				]
+			}
+		}
+	},
+	"jump": {
+		"slots": {
+			"die_chicken": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_duck": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_penguin": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_rooster": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": 75.52 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -41.63 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": 42.24 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -82.04 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 0.0667, "y": 5.59, "curve": "stepped" },
+					{ "time": 1, "y": 5.59 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": 119.32 }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"die_chicken": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_duck": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_penguin": {
+				"attachment": [
+					{}
+				]
+			},
+			"die_rooster": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"rotate": [
+					{
+						"curve": [ 0.044, 0, 0.089, 24.14 ]
+					},
+					{
+						"time": 0.1333,
+						"value": 24.14,
+						"curve": [ 0.2, 24.14, 0.267, 0 ]
+					},
+					{ "time": 0.3333 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{
+						"curve": [ 0.044, 0, 0.089, -33.14 ]
+					},
+					{
+						"time": 0.1333,
+						"value": -33.14,
+						"curve": [ 0.2, -33.14, 0.267, 0 ]
+					},
+					{ "time": 0.3333 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.044, 0, 0.089, 0, 0.044, 0, 0.089, 3.56 ]
+					},
+					{
+						"time": 0.1333,
+						"y": 3.56,
+						"curve": [ 0.2, 0, 0.267, 0, 0.2, 3.56, 0.267, 0 ]
+					},
+					{ "time": 0.3333 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{
+						"curve": [ 0.044, 0, 0.089, 0, 0.044, 0, 0.089, 3.56 ]
+					},
+					{
+						"time": 0.1333,
+						"y": 3.56,
+						"curve": [ 0.2, 0, 0.267, 0, 0.2, 3.56, 0.267, 0 ]
+					},
+					{ "time": 0.3333 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{
+						"curve": [ 0.044, 0, 0.089, -24.67 ]
+					},
+					{
+						"time": 0.1333,
+						"value": -24.67,
+						"curve": [ 0.2, -24.67, 0.267, 0 ]
+					},
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}
