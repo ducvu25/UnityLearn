@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Acceleration/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/DuaXe/Game.unity
+    guid: 7a958ed7e242c3d4ea20da71fa4dde66
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

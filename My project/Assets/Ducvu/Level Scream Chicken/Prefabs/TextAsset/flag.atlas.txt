@@ -1,6 +1,0 @@
-flag.png
-	size: 160, 108
-	filter: Linear, Linear
-	pma: true
-flag_1
-	bounds: 2, 2, 156, 104
